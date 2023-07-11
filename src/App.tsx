@@ -9,13 +9,11 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/store" element={<Store />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/store" element={<Store />} />
+      </Routes>
     </>
   );
 }

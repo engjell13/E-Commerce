@@ -1,12 +1,7 @@
-import Logo from "../../assets/ecommerceLogo.png";
-
 const Navbar = (): JSX.Element => {
   return (
     <nav className="bg-white border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
-        <a href="/home" className="flex items-center">
-          <img src={Logo} className="h-14 " alt="e-commerce logo" />
-        </a>
         <button
           data-collapse-toggle="navbar-default"
           type="button"
@@ -32,7 +27,7 @@ const Navbar = (): JSX.Element => {
           </svg>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul className="flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 font-semibold">
             <li>
               <a
                 href="/"
@@ -62,6 +57,13 @@ const Navbar = (): JSX.Element => {
             </li>
           </ul>
         </div>
+
+        <button className=" p-2 flex text-3xl bg-[#FFD4D4] text-white rounded-full relative">
+          <i className="bx bxs-store"></i>
+          <span className="absolute top-7 left-7 bg-black text-sm py-0.5 px-2 rounded-full ">
+            3
+          </span>
+        </button>
       </div>
     </nav>
   );
