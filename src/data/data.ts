@@ -15,9 +15,9 @@ import DunkLow from "../../assets/jordan/nikedunklow.png";
 import Jordan3 from "../../assets/jordan/airjordan3.png";
 import Jordan7 from "../../assets/jordan/airjordan7retro.png";
 import Jordan1 from "../../assets/jordan/airjordan1retro.png";
-import RsX from "../../assets/jordan/airjordan1retro.png";
-import RsXMono from "../../assets/jordan/airjordan1retro.png";
-import SuedeClassic from "../../assets/jordan/airjordan1retro.png";
+import RsX from "../../assets/puma/pumaRS-X.png";
+import RsXMono from "../../assets/puma/RS-X-MONO.png";
+import SuedeClassic from "../../assets/puma/Suede-Classic-XXI.png";
 import FreshFoam from "../../assets/newbalance/freshfoamroav.png";
 import nb990v6 from "../../assets/newbalance/990v6.png";
 import nb550 from "../../assets/newbalance/550.png";
@@ -25,12 +25,12 @@ import ClassicLeather from "../../assets/reebook/classicLeather.png";
 import Nanox3 from "../../assets/reebook/nanox3.png";
 import LogoBazil from "../../assets/kappa/logobazil.png";
 import LogoBernal from "../../assets/kappa/logobernal.png";
-import PowerPlay from "../../assets/hummel/ST. POWER PLAY RT.png";
-import Stockholm from "../../assets/hummel/STOCKHOLM LX-E ARCHIVE.png";
-import ChargedAssert from "../../assets/underarmour/Charged Assert 9.png";
-import ProjectRock from "../../assets/underarmour/Project Rock 5.png";
+import PowerPlay from "../../assets/hummel/ST.-POWER-PLAY-RT.png";
+import Stockholm from "../../assets/hummel/STOCKHOLM-LX-E-ARCHIVE.png";
+import ChargedAssert from "../../assets/underarmour/Charged-Assert-9.png";
+import ProjectRock from "../../assets/underarmour/Project-Rock-5.png";
 
-export const projectsData = [
+export const shoesData = [
   {
     id: 1,
     image: AirForce,
@@ -278,5 +278,44 @@ export const projectsData = [
     category: "Under Armour",
     price: "150€",
     slug: "/store/underarmour/project-rock-5",
+  },
+];
+
+export const shoesNav = [
+  {
+    name: "Nike",
+    category: "Nike",
+  },
+  {
+    name: "Adidas",
+    category: "Adidas",
+  },
+  {
+    name: "Puma",
+    category: "Puma",
+  },
+  {
+    name: "New Balance",
+    category: "New Balance",
+  },
+  {
+    name: "Jordan",
+    category: "Jordan",
+  },
+  {
+    name: "Under Armour",
+    category: "Under Armour",
+  },
+  {
+    name: "Reebok",
+    category: "Reebok",
+  },
+  {
+    name: "Kappa",
+    category: "Kappa",
+  },
+  {
+    name: "Hummel",
+    category: "Hummel",
   },
 ];

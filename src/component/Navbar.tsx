@@ -1,6 +1,6 @@
 const Navbar = (): JSX.Element => {
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-900">
+    <nav className="bg-white border-gray-200 dark:bg-gray-900 shadow-[10px_-2px_10px_#efefef] fixed top-0 left-0 right-0 z-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
         <button
           data-collapse-toggle="navbar-default"
@@ -57,13 +57,20 @@ const Navbar = (): JSX.Element => {
             </li>
           </ul>
         </div>
-
-        <button className=" p-2 flex text-3xl bg-[#FFD4D4] text-white rounded-full relative">
-          <i className="bx bxs-store"></i>
-          <span className="absolute top-7 left-7 bg-black text-sm py-0.5 px-2 rounded-full ">
-            3
-          </span>
-        </button>
+        <div className="flex gap-10">
+          <button className=" p-2 flex text-3xl bg-[#FFD4D4] hover:bg-[#f79191] transition-all active:bg-[#f79191] text-white rounded-full relative">
+            <i className="bx bxs-heart"></i>
+            <span className="absolute top-7 left-7 bg-black text-sm py-0.5 px-2 rounded-full ">
+              3
+            </span>
+          </button>
+          <button className=" p-2 flex text-3xl bg-[#FFD4D4] hover:bg-[#f79191] transition-all active:bg-[#f79191] text-white rounded-full relative">
+            <i className="bx bxs-store"></i>
+            <span className="absolute top-7 left-7 bg-black text-sm py-0.5 px-2 rounded-full ">
+              3
+            </span>
+          </button>
+        </div>
       </div>
     </nav>
   );

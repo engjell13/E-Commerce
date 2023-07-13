@@ -9,3 +9,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.sidenav-container {
+  position: sticky;
+  top: 100px;
+  height: calc(100vh - 185px); /* Adjust the height as needed */
+  overflow-y: auto;
+}
